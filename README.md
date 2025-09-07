@@ -52,13 +52,26 @@ Extract the JAR file (e.g., mysql-connector-j-9.4.0.jar)
 
 ### 4. Set Up the Project
 Create a project directory
-
 Place all Java files in the directory:
 
+**GitHub Repository:** [https://github.com/your-username/student-database-app](https://github.com/your-username/student-database-app)
+
+*(Replace with your actual repository URL)*
+
+### Clone the Project
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/student-database-app.git
+```
+
+# Navigate to project directory
+```cmd
+cd student-database-app
+```
+
 Student.java
-
 DatabaseManager.java
-
 StudentApp.java
 
 Place the MySQL Connector JAR file in the same directory
