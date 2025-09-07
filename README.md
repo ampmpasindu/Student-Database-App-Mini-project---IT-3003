@@ -50,7 +50,7 @@ Download the platform-independent ZIP archive
 
 Extract the JAR file (e.g., mysql-connector-j-9.4.0.jar)
 
-(Allready attached the file in repor)
+(Allready attached the file in repository)
 
 ### 4. Set Up the Project
 Create a project directory
