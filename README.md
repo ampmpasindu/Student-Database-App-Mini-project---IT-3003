@@ -41,6 +41,7 @@ CREATE TABLE IF NOT EXISTS students (
     email VARCHAR(100) UNIQUE NOT NULL,
     combination VARCHAR(100) NOT NULL
 );
+```
 
 3. Download MySQL Connector/J
 Visit: https://dev.mysql.com/downloads/connector/j/
