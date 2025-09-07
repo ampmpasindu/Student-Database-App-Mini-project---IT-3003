@@ -2,8 +2,6 @@
 index No = s16199 ;
 Name = Pasindu Madhusha
 
-# Student Database Management System
-
 A Java application for managing student records with MySQL database integration. This application allows administrators to perform CRUD operations (Create, Read, Update, Delete) on student records using index numbers as the primary identifier.
 
 ## Features
