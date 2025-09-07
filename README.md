@@ -70,9 +70,9 @@ git clone https://github.com/ampmpasindu/student-database-app-mini-project--it-3
 cd student-database-app-mini-project--it-3003
 ```
 
-Student.java
-DatabaseManager.java
-StudentApp.java
+#### Student.java
+#### DatabaseManager.java
+#### StudentApp.java
 
 Place the MySQL Connector JAR file in the same directory
 
