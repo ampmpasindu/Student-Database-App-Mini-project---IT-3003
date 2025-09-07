@@ -78,8 +78,8 @@ String password = "your mysql password";  // Change this
 Default username: root
 Default password: (empty) or the password you set during MySQL installation
 
-##Compilation and Execution
-##For Windows Systems:
+## Compilation and Execution
+## For Windows Systems:
 ## Compile the application
 ```cmd
 javac -cp ".;mysql-connector-j-9.4.0.jar" *.java
