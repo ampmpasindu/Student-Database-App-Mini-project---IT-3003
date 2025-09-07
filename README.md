@@ -41,3 +41,76 @@ CREATE TABLE IF NOT EXISTS students (
     email VARCHAR(100) UNIQUE NOT NULL,
     combination VARCHAR(100) NOT NULL
 );
+
+3. Download MySQL Connector/J
+Visit: https://dev.mysql.com/downloads/connector/j/
+
+Download the platform-independent ZIP archive
+
+Extract the JAR file (e.g., mysql-connector-j-9.4.0.jar)
+
+4. Set Up the Project
+Create a project directory
+
+Place all Java files in the directory:
+
+Student.java
+
+DatabaseManager.java
+
+StudentApp.java
+
+Place the MySQL Connector JAR file in the same directory
+
+Configuration
+Database Connection Settings
+Update the database connection parameters in StudentApp.java (main method):
+
+java
+String url = "jdbc:mysql://localhost:3306/studentdb";
+String username = "your_mysql_username";  // Change this
+String password = "your_mysql_password";  // Change this
+Common MySQL Credentials:
+Default username: root
+
+Default password: (empty) or the password you set during MySQL installation
+
+Compilation and Execution
+For Windows Systems:
+cmd
+# Compile the application
+javac -cp .;mysql-connector-j-9.4.0.jar *.java
+
+# Run the application
+java -cp .;mysql-connector-j-9.4.0.jar StudentApp
+For Linux/Mac Systems:
+bash
+# Compile the application
+javac -cp .:mysql-connector-j-9.4.0.jar *.java
+
+# Run the application
+java -cp .:mysql-connector-j-9.4.0.jar StudentApp
+Note: Replace mysql-connector-j-9.4.0.jar with the actual filename of your MySQL Connector/J version.
+
+Usage Guide
+Main Menu Options:
+Add Student - Create a new student record
+
+View All Students - Display all students in the database
+
+View Student by Index No - Search for a specific student
+
+Update Student - Modify existing student information
+
+Delete Student - Remove a student from the database
+
+Exit - Close the application
+
+Field Requirements:
+Name: Full name (100 characters max, required)
+
+Index Number: Unique identifier (20 characters max, required)
+
+Email: Valid email format (100 characters max, unique, required)
+
+Combination: Subject combination (100 characters max, required)
