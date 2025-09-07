@@ -56,13 +56,13 @@ Extract the JAR file (e.g., mysql-connector-j-9.4.0.jar)
 Create a project directory
 Place all Java files in the directory:
 
-**GitHub Repository:** [https://github.com/ampmpasindu/Student-Database-App-Mini-project---IT-3003](https://github.com/ampmpasindu/Student-Database-App-Mini-project---IT-3003)
+**GitHub Repository:** [https://github.com/ampmpasindu/student-database-app-mini-project--it-3003](https://github.com/ampmpasindu/student-database-app-mini-project--it-3003)
 
 ### Clone the Project
 
 ```bash
 # Clone the repository
-git clone https://github.com/ampmpasindu/Student-Database-App-Mini-project---IT-3003
+git clone https://github.com/ampmpasindu/student-database-app-mini-project--it-3003
 ```
 
 # Navigate to project directory
