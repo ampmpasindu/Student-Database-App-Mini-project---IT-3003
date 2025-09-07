@@ -70,17 +70,16 @@ Update the database connection parameters in StudentApp.java (main method):
 java
 ```java
 String url = "jdbc:mysql://localhost:3306/studentdb";
-String username = "your_mysql_username";  // Change this
-String password = "your_mysql_password";  // Change this
+String username = "your mysql username";  // Change this
+String password = "your mysql password";  // Change this
 ```
 
-Common MySQL Credentials:
+## Common MySQL Credentials:
 Default username: root
 Default password: (empty) or the password you set during MySQL installation
 
-Compilation and Execution
-For Windows Systems:
-cmd
+##Compilation and Execution
+##For Windows Systems:
 ## Compile the application
 ```cmd
 javac -cp ".;mysql-connector-j-9.4.0.jar" *.java
