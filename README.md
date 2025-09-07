@@ -1,1 +1,1 @@
-# Student-Database-App-Mini-project---IT-3003
+# Student-Database-App-Mini-project-IT-3003
