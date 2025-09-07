@@ -43,14 +43,14 @@ CREATE TABLE IF NOT EXISTS students (
 );
 ```
 
-3. Download MySQL Connector/J
+### 3. Download MySQL Connector/J
 Visit: https://dev.mysql.com/downloads/connector/j/
 
 Download the platform-independent ZIP archive
 
 Extract the JAR file (e.g., mysql-connector-j-9.4.0.jar)
 
-4. Set Up the Project
+### 4. Set Up the Project
 Create a project directory
 
 Place all Java files in the directory:
@@ -79,39 +79,29 @@ Default password: (empty) or the password you set during MySQL installation
 Compilation and Execution
 For Windows Systems:
 cmd
-# Compile the application
-javac -cp .;mysql-connector-j-9.4.0.jar *.java
+## Compile the application
+```cmd
+javac -cp ".;mysql-connector-j-9.4.0.jar" *.java
+```
 
-# Run the application
-java -cp .;mysql-connector-j-9.4.0.jar StudentApp
-For Linux/Mac Systems:
-bash
-# Compile the application
-javac -cp .:mysql-connector-j-9.4.0.jar *.java
+## Run the application
+```cmd
+java -cp ".;mysql-connector-j-9.4.0.jar" StudentApp
+```
 
-# Run the application
-java -cp .:mysql-connector-j-9.4.0.jar StudentApp
-Note: Replace mysql-connector-j-9.4.0.jar with the actual filename of your MySQL Connector/J version.
+###Usage Guide
 
-Usage Guide
 Main Menu Options:
 Add Student - Create a new student record
-
 View All Students - Display all students in the database
-
 View Student by Index No - Search for a specific student
-
 Update Student - Modify existing student information
-
 Delete Student - Remove a student from the database
-
 Exit - Close the application
 
 Field Requirements:
 Name: Full name (100 characters max, required)
 
 Index Number: Unique identifier (20 characters max, required)
-
 Email: Valid email format (100 characters max, unique, required)
-
 Combination: Subject combination (100 characters max, required)
