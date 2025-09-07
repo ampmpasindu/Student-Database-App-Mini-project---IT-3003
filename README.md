@@ -50,24 +50,24 @@ Download the platform-independent ZIP archive
 
 Extract the JAR file (e.g., mysql-connector-j-9.4.0.jar)
 
+(Allready attached the file in repor)
+
 ### 4. Set Up the Project
 Create a project directory
 Place all Java files in the directory:
 
-**GitHub Repository:** [https://github.com/your-username/student-database-app](https://github.com/your-username/student-database-app)
-
-*(Replace with your actual repository URL)*
+**GitHub Repository:** [https://github.com/ampmpasindu/Student-Database-App-Mini-project---IT-3003](https://github.com/ampmpasindu/Student-Database-App-Mini-project---IT-3003)
 
 ### Clone the Project
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/student-database-app.git
+git clone https://github.com/ampmpasindu/Student-Database-App-Mini-project---IT-3003
 ```
 
 # Navigate to project directory
 ```cmd
-cd student-database-app
+cd Student-Database-App-Mini-project---IT-3003
 ```
 
 Student.java
