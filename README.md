@@ -67,7 +67,7 @@ git clone https://github.com/ampmpasindu/student-database-app-mini-project--it-3
 
 # Navigate to project directory
 ```cmd
-cd Student-Database-App-Mini-project---IT-3003
+cd student-database-app-mini-project--it-3003
 ```
 
 Student.java
