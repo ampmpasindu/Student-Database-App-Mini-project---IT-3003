@@ -6,13 +6,13 @@ A Java application for managing student records with MySQL database integration.
 
 ## Features
 
-- ✅ Add new students with unique index numbers and emails
-- ✅ View all students in the database
-- ✅ Search students by index number
-- ✅ Update student information using index number
-- ✅ Delete students using index number
-- ✅ Input validation and error handling
-- ✅ MySQL database integration with automatic table creation
+-  Add new students with unique index numbers and emails
+-  View all students in the database
+-  Search students by index number
+-  Update student information using index number
+-  Delete students using index number
+-  Input validation and error handling
+-  MySQL database integration with automatic table creation
 
 ## Prerequisites
 
